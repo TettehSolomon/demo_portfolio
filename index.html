@@ -5,18 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f0f0b91f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            
+        <div id="brand">
+            <img src="./images/logo.png" alt="brand logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li class="dropdown">
+                    <a href="#">Blog</a>
+                    <div class="dropdown-content">
+                        <a href="#">Blog One</a>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
+        
+        <!-- <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div> -->
     </header>
     <main>
+        <!-- home section -->
+        <section id="home">
+            <div id="left-container">
+                <div id="social-icons">
+                    <div class="icons"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="icons"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="icons"><i class="fa-brands fa-pinterest-p"></i></div>
+                    <div class="icons"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="icons"><i class="fa-brands fa-behance"></i></div>
+                </div>
+                <div id="intro-text">
+                    <h1>I am Jonathan Doe</h1>
+                    <p>
+                        I'm Jonathan, professional web developer with <br>
+                        long time experience in this field
+                    </p>
+                </div>
+                <div id="actionBtn">
+                    <button>My Portfolio</button>
+                </div>
+            </div>
+
+            <div id="right-container">
+                <img src="./images/man-01.png" alt="">
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section id="services">
+            <h3>SERVICES</h3>
+            <h2>My Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+               Numquam laudantium temporibus voluptatum dolores, ut dolorem 
+            </p>
+            <hr width="40px" align="left">
+            <div id="big-box">
+                <div id="small-box">
+
+                </div>
+                <div id="small-box">
+
+                </div>
+                <div id="small-box">
+
+                </div>
+            </div>
+
+            <div id="big-box">
+                <div id="small-box">
+
+                </div>
+                <div id="small-box">
+
+                </div>
+                <div id="small-box">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section id="about"></section>
+
+        <!-- skills section -->
+        <section id="skills"></section>
+
+        <!-- portfolio section -->
+        <section id="portfolio"></section>
+
+        <!-- blog section -->
+        <section id="blog"></section>
+
+        <!-- contact section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="" method="">
+                <input type="text" placeholder="first name" name="firstName">
+                <br>
+                <input type="email" placeholder="email" name="email">
+            </form>
+        </section>
+           
 
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
