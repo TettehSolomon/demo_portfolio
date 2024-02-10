@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    top: -541px;
+    left: -939px;
+    border-radius: 8px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++
+    Header Section
++++++++++++++++++++++++++++++++++++++++*/
+header {
+    background-color: #1F2235;
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#brand img {
+    max-height: 19px; /* Adjust this value as needed */
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar ul li {
+    margin-left: 10px; /* Adjust the spacing between navbar items */
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* Adjust the padding as needed */
+}
+
+#navbar ul li a:hover {
+    color: #ff2c2c;
+
+}
+
+#home {
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1243;
+    height: 756.52;
+    padding: 130px 0 0 0;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#left-container {
+    /* border: 2px solid blue; */
+    margin: -180px 45px 0 0;
+    height: 682.5;
+    width: 656.52;
+    padding: 0px 15px;
+}
+
+#right-container {
+    /* border: 2px solid green; */
+    margin: 0 0 45px 0;
+}
+
+
+.white-man {
+    width: 458px;
+    height: 657px;
+    top: 265px;
+    left: 77px;
+}
+
+#social-icons {
+    display: flex;
+}
+
+.icons {
+    border: 2px solid #FF4A57;
+    border-radius: 50%;
+    margin: 12px;
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.icons:hover {
+    background-color: #FF4A57;
+}
+
+#intro-text h1 {
+    color: #fff;
+    margin-top: 16px;
+    font-family: 'Poppins';
+    font-size: 62px;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: 5px solid transparent;
+    white-space: nowrap;
+    height: 652.5;
+    width: 74.4;
+    
+}
+
+#intro-text p {
+    color: #fff;
+    width: 652.5;
+    height: 80;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: lighter;
+    margin: -20px 0 50px 0;
+    font-family: 'Poppins';
+    
+}
+
+#buttons {
+    display: flex;
+}
+.portfolio-btn {
+    border: 2px solid #FF4A57;
+    font-family: 'Poppins';
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0px 14px 0 0;
+}
+
+.portfolio-btn:hover {
+    background-color: #FF4A57;
+    transition: 0.8s;
+}
+
+.youtubeBtn {
+    background-color: transparent;
+    padding: 13px 40px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: #FF4A57;
+    margin: 0 0 0 14px;
+    color: #fff;
+    font-size: 20px;
+}

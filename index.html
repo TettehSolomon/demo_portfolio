@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/4f0f0b91f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,21 +20,10 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li class="dropdown">
-                    <a href="#">Blog</a>
-                    <div class="dropdown-content">
-                        <a href="#">Blog One</a>
-                    </div>
-                </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        
-        <!-- <div class="hamburger-menu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div> -->
     </header>
     <main>
         <!-- home section -->
@@ -49,19 +39,24 @@
                 <div id="intro-text">
                     <h1>I am Jonathan Doe</h1>
                     <p>
-                        I'm Jonathan, professional web developer with <br>
+                        i'm Jonathan, professional web developer with <br>
                         long time experience in this field
                     </p>
                 </div>
-                <div id="actionBtn">
-                    <button>My Portfolio</button>
+                <div id="buttons">
+                    <button class="portfolio-btn">My Portfolio</button>
+                    <button class="youtubeBtn"><i class="fa fa-play"></i></button>
                 </div>
             </div>
 
             <div id="right-container">
-                <img src="./images/man-01.png" alt="">
+                <img class="white-man" src="./images/man-01.png" alt="white_man">
             </div>
         </section>
+
+
+
+
 
         <!-- Services section -->
         <section id="services">
@@ -117,12 +112,12 @@
                 <input type="email" placeholder="email" name="email">
             </form>
         </section>
-           
+    
 
     </main>
     <footer>
 
     </footer>
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
