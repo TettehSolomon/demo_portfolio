@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     font-family: 'Poppins';
     top: -541px;
     left: -939px;
@@ -51,8 +51,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1243;
-    height: 756.52;
+    width: auto;
+    height: auto;
     padding: 130px 0 0 0;
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
@@ -160,4 +160,61 @@ header {
     margin: 0 0 0 14px;
     color: #fff;
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+    #home {
+        flex-direction: column;
+    }
+
+    #left-container {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding: 200px 15px 15px 15px;
+    }
+
+    #right-container {
+        display: none;
+    }
+
+    #social-icons {
+        justify-content: center;
+        margin-left: 35px;
+    
+    }
+
+  
+    #intro-text h1 {
+        margin-top: 16px;
+        margin-left: 42px;
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid yellow;
+    }
+
+    #intro-text p {
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: lighter;
+        margin-left: 42px;
+        font-family: 'Poppins';
+        text-align: center;
+        border: 2px solid green;
+        
+    }
+
+    #buttons {
+        border: 2px solid white;
+        margin-left: 45px;
+        
+        justify-content: center;
+    }
+
+
+    
+
 }
