@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/4f0f0b91f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header id="header" class="horizontal">
         <div id="brand">
-            <img src="./images/logo.png" alt="brand logo">
+            <img class="logo" src="./images/logo.png" alt="brand logo">
         </div>
+
         <nav id="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="horizontal">
+                <li class="navItem"><a href="#home">Home</a></li>
+                <li class="navItem"><a href="#services">Services</a></li>
+                <li class="navItem"><a href="#about">About</a></li>
+                <li class="navItem"><a href="#skills">Skills</a></li>
+                <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+                <li class="navItem"><a href="#blog">Blog</a></li>
+                <li class="navItem"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <!-- home section -->
         <section id="home">
@@ -54,38 +56,35 @@
             </div>
         </section>
 
-
-
-
-
         <!-- Services section -->
         <section id="services">
-            <h3>SERVICES</h3>
-            <h2>My Services</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-               Numquam laudantium temporibus voluptatum dolores, ut dolorem 
-            </p>
-            <hr width="40px">
-            <div id="big-box">
-                <div id="small-box">
-
-                </div>
-                <div id="small-box">
-
-                </div>
-                <div id="small-box">
-
-                </div>
+            <div class="services-text">
+                <h4>SERVICES</h4>
+                <h2>My Services</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.
+                </p>
+                <hr>
             </div>
-
-            <div id="big-box">
-                <div id="small-box">
+            
+            <div id="grid">
+                <div class="cards">
+                    <div class="iconica"><i class="fa-brands fa-github"></i></div>
+                    <h2>Web Development</h2>
+                </div>
+                <div class="cards">
 
                 </div>
-                <div id="small-box">
+                <div class="cards">
 
                 </div>
-                <div id="small-box">
+            
+                <div class="cards">
+
+                </div>
+                <div class="cards">
+
+                </div>
+                <div class="cards">
                     
                 </div>
             </div>
