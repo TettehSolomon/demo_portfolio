@@ -166,6 +166,13 @@ body {
 
 @media screen and (max-width: 768px) {
   #header {
+    margin-left: -39px;
+  }
+  #navbar {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #navbar {
     display: none;
   }
   #home {
@@ -216,7 +223,6 @@ body {
   margin: 0 350px 0 350px;
   width: 539.98;
   height: 205.4;
-  display: block;
 }
 
 .services-text h4 {
@@ -225,7 +231,7 @@ body {
 }
 
 .services-text h2 {
-  font-size: 62px;
+  font-size: 55px;
   font-weight: bold;
   margin: 0 0 25px;
   width: 539.98;
@@ -287,7 +293,6 @@ body {
     height: 309.79;
   }
   .services-text h2 {
-    line-height: 1.2;
     margin-bottom: 25px;
     width: 320;
     height: 148.72;
