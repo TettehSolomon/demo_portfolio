@@ -22,7 +22,7 @@ body {
 
 #header {
     background-color: #1F2235;
-    padding: 20px 80px 20px 80px;
+    padding: 20px 80px;
     position: fixed;
     width: 100%;
 
@@ -37,6 +37,7 @@ body {
 .navItem {
     list-style: none;
     
+    
 }
 
 .navItem a {
@@ -45,7 +46,8 @@ body {
     color: #fff;
     font-size: 15px;
     font-weight: 500;
-    padding: 10px 15px; 
+    padding: 10px 15px;
+     
 
 }
 
