@@ -266,7 +266,6 @@ body {
 }
 
 #about-container-two {
-  border: 1px solid red;
   display: flex;
   padding: 0 70px;
   justify-content: space-evenly;
@@ -274,14 +273,12 @@ body {
 }
 
 .ab-image {
-  border: 1px solid green;
   justify-content: center;
   align-items: center;
   padding: 40px;
 }
 
 .ab-text {
-  border: 1px solid blue;
   margin: 10px;
 }
 .ab-text h2 {
@@ -298,17 +295,14 @@ body {
 }
 
 .contact-table {
-  border: 1px solid red;
-  padding: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
 }
-.contact-table .contact-columns {
-  border: 1px solid orange;
-  padding: 20px;
-  margin: 10px;
+.contact-table .contact-columns p span {
+  color: #FF4A57;
+  font-weight: bold;
 }
 
 /* Mobile View */
