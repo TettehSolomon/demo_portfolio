@@ -166,6 +166,7 @@ header {
     header {
         display: none;
     }
+
     #home {
         flex-direction: column;
 
@@ -188,7 +189,6 @@ header {
     
     }
 
-  
     #intro-text h1 {
         margin-top: 16px;
         margin-left: 42px;
@@ -203,8 +203,7 @@ header {
         font-weight: lighter;
         margin-left: 42px;
         font-family: 'Poppins';
-        text-align: center;
-        
+        text-align: center;   
         
     }
 
@@ -212,8 +211,4 @@ header {
         margin-left: 45px;
         justify-content: center;
     }
-
-
-    
-
 }
