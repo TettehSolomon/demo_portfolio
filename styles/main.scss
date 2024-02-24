@@ -23,6 +23,7 @@ body {
     padding: 20px 80px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .horizontal {
@@ -238,20 +239,23 @@ body {
     
 }
 
-.cards:hover {
-    background-color: $pinkColor;
-
-    .iconica i{
-        color: $white;
-        transform: rotateY(360deg);
-    }
-}
 
 .iconica i {
     font-size: 40px;
     color: $pinkColor;
     transition: transform 1.6s;
+    
 }
+.cards:hover {
+    background-color: $pinkColor;
+    
+    .iconica i{
+        color: $white;
+        transform: rotateY(360deg);
+        
+    }
+}
+
 
 /* About Me Section */ 
 #about {

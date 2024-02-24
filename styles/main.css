@@ -13,6 +13,7 @@ body {
   padding: 20px 80px;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .horizontal {
@@ -218,18 +219,18 @@ body {
   transition: background-color 0.8s;
 }
 
+.iconica i {
+  font-size: 40px;
+  color: #FF4A57;
+  transition: transform 1.6s;
+}
+
 .cards:hover {
   background-color: #FF4A57;
 }
 .cards:hover .iconica i {
   color: #fff;
   transform: rotateY(360deg);
-}
-
-.iconica i {
-  font-size: 40px;
-  color: #FF4A57;
-  transition: transform 1.6s;
 }
 
 /* About Me Section */
