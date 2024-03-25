@@ -337,6 +337,70 @@ body {
     }
 }
 
+#skills {
+    background-color: $bgColor1;
+    padding: 80px 0 60px 0;
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-skills {
+    border: 1px solid red;
+    width: 550px;
+    margin: 25px 15px 5px 5px;
+    padding: 0 20px 0 0;
+
+    p {
+      color: $pinkColor;
+    }
+
+    h2 {
+        font-size: 62px;
+        font-weight: bolder;
+        font-family: 'Poppins';
+        line-height: 1.2;
+        margin: 4px 0 0 0;
+        
+    }
+
+    h3 {
+        font-family: 'Poppins';
+        line-height: 26px;
+        font-weight: normal;
+        font-style: normal;
+        color: #dfdfdf;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: justify;
+    }
+}
+
+.right-skills {
+    border: 1px solid blue;
+    height: 300px;
+    width: 550px;
+    margin: 5px;
+
+}
+
+
+.hireMe-btn {
+    border: 2px solid #FF4A57;
+    font-family: 'Poppins';
+    background-color: transparent;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 15px 14px 0 0;
+    cursor: pointer;
+}
 
 
 
@@ -425,7 +489,7 @@ body {
         flex-direction: column;
         margin: 20px;
         width: 320;
-        height: 309.79;
+    
     }
 
     .services-text h2 {
@@ -441,6 +505,7 @@ body {
 
     #grid {
         flex-direction: column;
+        flex-wrap: nowrap;
         
     }
 
@@ -482,6 +547,22 @@ body {
     .contact-table {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skills{
+        flex-direction: column;
+    }
+
+    .left-skills{
+        margin: 0;
+        padding: 0;
+        width: 350px;
+    }
+
+    .right-skills{
+        margin: 0;
+        padding: 0;
+        width: 300px;
     }
 }
 
